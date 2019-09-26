@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bbd46a"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/etAndroid"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Android marks"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/etIOT"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IOT marks"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/etWeb"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Web API marks"
+        />
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="#5b39c6"
+
+        />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Output"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        />
+
+
+</LinearLayout>
